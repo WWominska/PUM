@@ -27,9 +27,8 @@ public class QuizActivity extends AppCompatActivity {
     };
 
     private int mCurrentIndex = 0;
-    private int mAnswerYup = 0; //przechowuje poprawne odpowiedzi
-    private int mAnsweredAnswer = 0;
-    //private boolean End = false; // sprawdza czy jest koniec programu
+    private int mAnswerYup = 0; //liczy ile udzieliło sie poprawnych odpowiedzi
+    private int mAnsweredAnswer = 0; // liczy na ile pytan sie odpowiedzialo
 
     //    Bundles are generally used for passing data between various Android activities.
     //    It depends on you what type of values you want to pass, but bundles can hold all
