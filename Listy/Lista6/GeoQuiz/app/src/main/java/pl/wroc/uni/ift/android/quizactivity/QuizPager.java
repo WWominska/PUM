@@ -46,6 +46,12 @@ public class QuizPager extends FragmentActivity {
             public int getCount() {
                 return mQuestions.size();
             }
+
+
+
         });
+
+
+
     }
 }
